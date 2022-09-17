@@ -10,6 +10,7 @@ section{
     align-items: center;
     min-height: 100vh;
     background: black;
+    border: 8px solid transparent;
 }
 
 .bowl{
