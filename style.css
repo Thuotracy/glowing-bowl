@@ -82,7 +82,7 @@ section{
     background: #41c1fb;
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px;
-    transform-origin: bottom center;
+    transform-origin: top center;
     animation: animateLiquid 5s linear infinite;
     filter: drop-shadow(0 0 80px #41c1fb);
 }
@@ -93,7 +93,7 @@ section{
     }
 
     25%{
-        transform: rotate(-20deg);
+        transform: rotate(20deg);
     }
 
     50%{
@@ -101,7 +101,7 @@ section{
     }
 
     75%{
-        transform: rotate(20deg);
+        transform: rotate(-20deg);
     }
 
     100%{
