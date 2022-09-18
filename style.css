@@ -19,6 +19,7 @@ section{
     height: 300px;
     background: rgba(255,255,255,0.1);
     border-radius: 50%;
+    border: 8px solid transparent;
 }
 
 .bowl::before{
@@ -67,4 +68,15 @@ section{
     background: #1fa4c8;
     border-radius: 50%;
     filter: drop-shadow(0 0 80px #41c1fb);
+}
+
+.shadow{
+    position: absolute;
+    top: calc(50% + 150px);
+    left: 50%;
+    transform: translate(50%, 50%);
+    width: 300px;
+    height: 30px;
+    background: rbga(0,0,0,0.5);
+    border-radius: 50%;
 }
